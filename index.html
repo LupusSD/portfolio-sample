@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="page">
+        <!-- Banner -->
+        <div id="banner">
+            <img id="logo" src="img/logo.jpg" alt="User photo">
+            <div>
+                <a href="#about_me" class="about">
+                    <img src="img/arrow_d.svg" alt="arrow" class="arrow">
+                </a>
+            </div>
+            <nav class="nav">
+                <a href="#about_me" class="ab">About</a>
+                <a href="#portfolio" class="port">Portfolio</a>
+                <a href="#contact_me" class="cm">Contact Me</a>
+            </nav>
+            <div class="socials">
+                <a href="Instagramlink" target="_blank">
+                    <img class="inst" src="img/inst.svg" alt="Instagram">
+                </a>
+                <a href="twitterlink" target="_blank">
+                    <img class="twit" src="img/twit.svg" alt="Twitter">
+                </a>
+                <a href="facebooklink" target="_blank">
+                    <img class="face" src="img/face.svg" alt="Facebook">
+                </a>
+            </div>
+            <div class="main">
+                <h1>Chris Tratt</h1>
+                <p class="short">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime delectus omnis, quibusdam iusto ad possimus quaerat esse consequuntur voluptatibus vel?</p>
+                <div class="cont">
+                    <a href="#contact_me" class="contact">Contact me</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- About me -->
+        <div id="about_me">
+            <img class="img_about" src="img/About.jpg" alt="About">
+            <div class="text_about">
+                <h2 class="h_about">About me</h2>
+                <p class="p_about">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur dignissimos ad et distinctio recusandae harum
+                atque quibusdam suscipit, n<span id="dots">...</span><span id="more">facilis veniam at qui! Non, in necessitatibus
+                reprehenderit esse quisquam, dolorum sed repellendus ullam suscipit hic cumque amet temporibus consequatur
+                facilis quae, cupiditate corrupti atque molestias pariatur dolores illo officiis. Reiciendis quas illo quaerat
+                optio cum, maxime nisi velit quod atque assumenda, voluptatum quo, architecto error nostrum ducimus laudantium?
+                Minima?</span></p>
+                <button id="btn" onclick="readMore()">Read more</button>
+            </div>
+        </div>
+
+        <!-- Portfolio -->
+        <div id="portfolio">
+            <div class="hh_port">
+                <h2 class="h_port">Portfolio</h2>
+                <p class="p_port">Lorem ipsum dolor sit amet.</p>
+            </div>
+            <img class="i1" src="img/Portfolio 1.jpg" alt="Photo 1">
+            <img class="i2" src="img/Portfolio 2.jpg" alt="Photo 2">
+            <img class="i3" src="img/Portfolio 3.jpg" alt="Photo 3">
+            <img class="i4" src="img/Portfolio 4.jpg" alt="Photo 4">
+            <img class="i5" src="img/Portfolio 5.jpg" alt="Photo 5">
+            <img class="i6" src="img/Portfolio 6.jpg" alt="Photo 6">
+            <div class="btn">
+                <img class="b1" src="img/arrow_l.svg" alt="Arrow left">
+                <img class="b2" src="img/arrow_r.svg" alt="Arrow right">
+            </div>
+        </div>
+
+        <!-- Contact me -->
+        <div id="contact_me">
+            <h2 class="h_cont">Contact me</h2>
+            <form class="f_cont" action="">
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <input class="name" type="text" placeholder="Name">
+                <input class="email" type="email" placeholder="Email">
+                <input class="phone" type="number" placeholder="Phone Number">
+                <input class="subm" type="submit" value="Send">
+            </form>
+            <img class="i_cont" src="img/Portfolio 1.jpg" alt="Photo 4">
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+                <img id="logo2" src="img/logo.jpg" alt="User photo">
+                <nav class="nav2">
+                    <a href="#about_me" class="ab">About</a>
+                    <a href="#portfolio" class="port">Portfolio</a>
+                    <a href="#contact_me" class="cm">Contact Me</a>
+                </nav>
+                <div class="socials2">
+                    <a href="Instagramlink" target="_blank">
+                        <img class="inst" src="img/inst.svg" alt="Instagram">
+                    </a>
+                    <a href="twitterlink" target="_blank">
+                        <img class="twit" src="img/twit.svg" alt="Twitter">
+                    </a>
+                    <a href="facebooklink" target="_blank">
+                        <img class="face" src="img/face.svg" alt="Facebook">
+                    </a>
+                </div>
+            <p class="p_foot">Lorem, ipsum dolor.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
